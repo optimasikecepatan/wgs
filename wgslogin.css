@@ -1,0 +1,185 @@
+    .Llcc {margin-top: 23px;margin-bottom:13px;text-shadow: -2px 3px #000000; display: flex; justify-content: center; align-items: center; } .waviy { position: relative; } .waviy span { position: relative; display: inline-block; font-size: 40px; color: #fff; text-transform: uppercase; animation: flip 2s infinite; animation-delay: calc(.2s * var(--i)) } @keyframes flip { 0%,80% { transform: rotateY(360deg) } } body { background: #095706; } .cnBG { margin: 0; display: flex; align-items: center; justify-content: center; background-color: #095706; color: #fff;}.cnBG p { color: #000; font-size: 19px; }.login-card { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 460px; text-align: center; border: 5px solid #1a1a1a; }.cnBG form { display: flex; flex-direction: column; } .cnBG input { margin: 10px 0; padding: 10px; border: 1px solid #333; border-radius: 4px; }.button-container { display: flex; justify-content: space-between; position: relative; left: 29px; } #gagallogin { color: red; display:none; } .cnBG button { padding: 10px; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s; } .login-btn { background-color: #1c1c1c; color: #fff; margin-right: 10px; } .register-btn { background-color: #1a1a1a; border: 1px solid #0056b3; color: #0056b3; margin-left: 10px; } .cnBG button:hover { background-color: #095706; } @media (max-width: 600px) { .button-container { flex-direction: column; }.login-btn, .register-btn { margin: 10px 0; width: 30%; left: 26px; position: relative; }} 
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+    body.login {
+    
+      background-color: #384c2f !important;
+      background-size: cover !important;
+      font-family: "Roboto", sans-serif;
+    }
+    body.login::before {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      content: "";
+    
+    }
+    
+    #login {
+      width: 40%;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      right: 0;
+      height: auto;
+    }
+    #login h1 {
+      width: 100%;
+      height: 130px;
+      background: url("http://infinitytext.com/object-link/logo.png") no-repeat center;
+      margin-bottom: 30px;
+      margin-top: 20%;
+    }
+    #login h1 a {
+      display: none;
+    }
+    #login form {
+      background: transparent !important;
+      background: transparent;
+      box-shadow: none;
+      border: 0;
+      text-shadow: none;
+      margin: 0;
+      padding: 0;
+    }
+    #login form label {
+      font-size: 24px;
+      display: block !important;
+      text-align: center;
+      color: #fff;
+    }
+    #login form input[type=text],
+    #login form input[type=password] {
+      background: transparent;
+      box-shadow: none;
+      border: 0;
+      text-shadow: none;
+      border-bottom: 3px solid #fff;
+      color: #fff;
+      text-align: center;
+      padding-bottom: 5px;
+      width: 100%;
+      padding: 20px 0;
+      font-size: 20px;
+      outline: 0;
+      margin-bottom: 10px;
+    }
+    #login form input[type=text]:focus,
+    #login form input[type=password]:focus {
+      color: #41b176;
+      outline: 0;
+    }
+    #login form input[type=text]:hover,
+    #login form input[type=password]:hover {
+      color: #41b176;
+      outline: 0;
+    }
+    #login form p.forgetmenot {
+      display: block;
+      width: 100%;
+      margin-top: 15px !important;
+    }
+    #login form p.forgetmenot label {
+      font-size: 14px !important;
+      padding: 10px !important;
+      text-transform: uppercase;
+    }
+    #login form p.submit {
+      display: block;
+      width: 100%;
+      float: left;
+      margin-top: 12px !important;
+    }
+    #login form p.submit input {
+      width: 100%;
+      padding: 10px !important;
+      height: auto !important;
+      background: transparent;
+      box-shadow: none;
+      border: 0;
+      text-shadow: none;
+      background: #41b176;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 15px !important;
+      display: block;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    #login form::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+    #login p#nav {
+      text-align: center !important;
+      padding: 15px !important;
+    }
+    #login p#nav a {
+      color: #fff !important;
+    }
+    #login p#backtoblog {
+      text-align: center;
+    }
+    #login p#backtoblog a {
+      color: #fff;
+    }
+    
+    @media only screen and (max-width: 768px) {
+      body.login {
+        background-size: inherit !important;
+      }
+    
+      #login {
+        width: 90%;
+      }
+      #login h1 {
+        background-size: 100% !important;
+      }
+    }
+  
+    .title-word {
+      animation: color-animation 4s linear infinite;
+    }
+    
+    txt {
+      padding: 11px 29px;
+      border: 2px dotted #d1d1d1;
+  }
+    
+  .verify {
+    display: flex;
+    margin-bottom: 17px;
+    margin-top: 39px;
+  }
+    
+    .title-word-1 {
+        --color-1: #DF8453;
+        --color-2: #3D8DAE;
+        --color-3: #E4A9A8;
+        text-align: center;
+        display: flex;
+    }
+    
+    .verify input {
+      padding: 9px !important;
+      margin-bottom: 0px !important;
+  }
+    
+    @keyframes color-animation {
+      0%    {color: var(--color-1)}
+      32%   {color: var(--color-1)}
+      33%   {color: var(--color-2)}
+      65%   {color: var(--color-2)}
+      66%   {color: var(--color-3)}
+      99%   {color: var(--color-3)}
+      100%  {color: var(--color-1)}
+    }
