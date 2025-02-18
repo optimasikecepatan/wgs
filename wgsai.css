@@ -1,0 +1,125 @@
+.chat__footer { margin-bottom: 27px; background: #fff !important; padding: 0 !important; margin-top: auto; overflow: hidden; border-radius: 10px; border: unset !important; }.ainext {display:none!important}
+
+div#dailyprayertime-2 {
+      display: none !important;
+  }
+  
+  .chat__footer textarea,button{-webkit-appearance:none;-moz-appearance:none;}
+  .chat__footer p{font-family:"Montserrat", sans-serif;}
+  .chat__footer textarea{font-family:"Montserrat", sans-serif;font-size:14px;resize:none;}
+  *,*:before,*:after{box-sizing:border-box;}
+  .chat__footer button:active,button:focus,span:active,span:focus,span,div:active,div:focus,div,textarea:active,textarea:focus{outline:none;}
+  .chat__footer textarea{font-family:"Montserrat", sans-serif;letter-spacing:0;}
+  .chat__footer button{font-family:"Montserrat", sans-serif;background:none;cursor:pointer;border:none;font-size:16px;}
+  .chat__footer button:disabled{opacity:0.5;cursor:auto!important;}
+  .chat__footer ::-webkit-scrollbar{width:0.5em;height:0.5em;}
+  .chat__footer ::-webkit-scrollbar-thumb{background:#00FAA9;}
+  .chat__footer ::-webkit-scrollbar-track{background:#d1d1d1;}
+  .chat__footer p{line-height:140%;}
+  .chat__form {
+      display: flex;
+      padding: 13px 22px;
+      flex-direction: column;
+      position: relative;
+      border-radius: 24px;
+      border: 1px solid #c5c5c5;
+      background: rgb(255 255 255);
+  }
+  .chat__form .chat__textarea{background:none;border:none;font-size:16px;height:25px;}
+  .chat__form .chat-submit{position:absolute;right:24px;bottom:8px;}
+  .chat__form .chat-submit:hover svg path{fill:#fff;}
+                       span#showdata {
+      overflow: hidden;
+      height: 99px;
+      color: #000;
+  }
+  .chat__footer {
+      margin-bottom: 27px;
+      background: #c4c4ff08;
+      padding: 19px 50px;
+      margin-top: auto;
+      overflow: hidden;
+      border-radius: 10px;
+      border: 1px dashed #e7e7e7;
+  }
+  .chat__footer span {
+      font-size: 16px;
+      opacity: 0.75;
+      margin-top: 15px;
+      display: block;
+  }
+  .chat__footer__line p {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      margin-right: 10px;
+      width: 16%;
+      position: relative;
+      top: 8px;
+  }
+  .chat__footer__line{margin-bottom:8px;display:flex;align-items:center;justify-content:center;}
+  .chat__footer__line p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 10px;
+    width: 16%;
+    position: relative;
+    top: 8px;
+  }
+  .chat__footer__line .chat__footer__procent {
+      width: 534px;
+      border-radius: 4px;
+      background: #555555;
+      height: 2px;
+  }
+  span#showdata li { margin-bottom: 17px !important; }
+  span#showdata ol {
+    padding: 0 27px;
+  }
+  .chat__footer__line .chat__footer__procent__line{width:80%;height:8px;border-radius:4px;background:linear-gradient(95deg, #00FFA3 3.49%, #00C2FF 95.78%);}
+  @media screen and (max-width: 980px){
+  p{font-size:14px!important;}
+  .chat__form .chat-submit{right:8px;bottom:8px;}
+  }
+  @media screen and (max-width: 760px){
+    .chat__footer__line p {
+      width: 100%;
+      top: 8px;
+      text-align: center;
+  }
+  .bPst-comments{padding:1rem!important}
+  .chat__body .chat__form{padding:0 4vw;}
+  .chat__footer{padding:15px 4vw;}
+  .chat__footer__line{flex-wrap:wrap;gap:10px;margin-bottom:20px;}
+  .chat__form .chat__textarea{padding:3px;padding-right:30px;}
+  .chat__form .chat__textarea{height:80px;}
+  }
+  textarea.chat__textarea{resize:none;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;transition:none;}
+  .desc-switch {
+      text-align: center;
+      font-size: 20px;
+      background: #ffffff85;
+      padding: 9px;
+      position: relative;
+      top: 0;
+      border-bottom:2px solid #f5f5f5;
+  }
+                    .bukaAI {
+      background: #fdc6ce;
+      padding: 5px 9px;
+      color: #000!important;
+      border-radius: 11px;
+      font-size: 14px;
+  }
+  .ainext {margin-bottom: 19px;display: block;width: 100%;text-align: center;font-size: 18px;}
+  
+   /*! CSS Used from: Embedded */
+                  .message{margin-bottom:10px;padding:8px;border-radius:10px;display:flex;align-items:center;}
+                  .incoming {
+                      background-color: #f1f6fd;
+                      justify-content: flex-start;
+                  }
+                  .message-avatar{width:40px;height:40px;border-radius:50%;margin-right:10px;flex-shrink:0;}
+                  .message-content{word-wrap:break-word;}
+                  .message-time{font-size:12px;color:#666;margin-left:auto;}
