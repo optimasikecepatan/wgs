@@ -341,19 +341,7 @@ table th {
     background: #edf5f0;
     padding: 2px 23px;
 }
-    </style>
 
-<div class="newposts">
-
-<div class="editor-container">
-  
-       <div id="summernote"></div>
-       
-</div>
-
-<div class="sidebar">
-  <div id="asides" class="grid__col grid__col--1-of-9" align="left" style="transform:unset!important">
-      <style>
 .collapse{display:none;}
 .collapse.in{display:block;}
 .badge{display:inline-block;min-width:10px;padding:3px 7px;font-size:12px;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:middle;background-color:#777;border-radius:10px;}
